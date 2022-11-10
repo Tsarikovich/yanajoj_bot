@@ -40,7 +40,7 @@ def get_contact(message, name, description):
 
 def send_data(name, description, contact):
     bot.send_message(chat_id,
-                     text=f"Новое сообщение ❗\nИмя: {name.capitalize()},\nКонтакт: {contact},\nОписание проблемы: {description}")
+                     text=message_chain[5].format(name=name, description=description, contact=contact))
 
 
 def process_event(event):
