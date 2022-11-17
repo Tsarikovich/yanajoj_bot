@@ -1,3 +1,5 @@
 .idea
 .env
 **/__pycache__
+lambda.zip
+zip_for_upload_aws.bat
